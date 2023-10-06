@@ -54,6 +54,10 @@ a {
   text-decoration: none; 
 }
 
+.navbar #nav {
+  list-style-type: none;
+}
+
 .input-group {
   display: flex;
   justify-content: flex-end;
