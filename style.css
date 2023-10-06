@@ -23,12 +23,8 @@ body {
 }
 
 .navbar-container {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: auto;
-  z-index: 100;
+  
+  
   background-color: black;
   color: white;
 }
