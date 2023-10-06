@@ -31,10 +31,14 @@ body {
   z-index: 100;
   background-color: black;
   color: white;
+}
+
+#stickyNavbar li {
   display: inline-block;
   font-size: 1.4em;
   font-weight: 700;
 }
+
 
 .navbar-brand {
   font-weight: 10px;
