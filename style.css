@@ -53,6 +53,11 @@ ul {
   list-style-type: none;
 }
 
+a {
+  color: #000;
+  text-decoration: none; 
+}
+
 .input-group {
   display: flex;
   justify-content: flex-end;
