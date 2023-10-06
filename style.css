@@ -1,3 +1,18 @@
+body {
+  display: block;
+  position: relative;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: -.2px;
+  word-spacing: 3px;
+  margin: 0 auto;
+  min-height: 100%;
+  background-color: #f7f7f7;
+}
+
 .content-container {
   height: 3rem;
   font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -8,8 +23,17 @@
 }
 
 .navbar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  z-index: 100;
   background-color: black;
   color: white;
+  display: inline-block;
+  font-size: 1.4em;
+  font-weight: 700;
 }
 
 .navbar-brand {
