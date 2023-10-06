@@ -45,6 +45,10 @@ body {
   height: 35px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .input-group {
   display: flex;
   justify-content: flex-end;
