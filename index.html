@@ -170,56 +170,7 @@ on the job.  </pre>
               <span class="price3"><strong>Price:</strong> $650</span>
             </div>
           </div>
-          <div class="reviews-container">
-            <div class="review-slide">
-              <img src="C:\Users\yamini m r\Desktop\puma_product_page\review1.png" alt="Review 1">
-              <p>Anthony J </p>
-            </div>
-            <div class="review-slide">
-              <img src="C:\Users\yamini m r\Desktop\puma_product_page\review2.png" alt="Review 2">
-              <p>James Richard</p>
-            </div>
-            <div class="review-slide">
-              <img src="C:\Users\yamini m r\Desktop\puma_product_page\review3.png" alt="Review 3">
-              <p>David Smith</p>
-            </div>
-          </div>
-          <div class="review-button">
-          <button class="control-button" onclick="prevSlide()">Previous</button>
-          <button class="control-button" onclick="nextSlide()">Next</button>
-        </div>
 
-          <script>
-            let slideIndex = 0;
-const slides = document.querySelectorAll('.review-slide');
-
-function showSlide(index) {
-  slides.forEach((slide) => {
-    slide.classList.remove('active');
-  });
-
-  if (index < 0) {
-    slideIndex = slides.length - 1;
-  } else if (index >= slides.length) {
-    slideIndex = 0;
-  } else {
-    slideIndex = index;
-  }
-
-  slides[slideIndex].classList.add('active');
-}
-
-function prevSlide() {
-  showSlide(slideIndex - 1);
-}
-
-function nextSlide() {
-  showSlide(slideIndex + 1);
-}
-
-
-setInterval(nextSlide, 5000);
-          </script>
 
  <div class="outer-container">
   <div class="centered-container">
