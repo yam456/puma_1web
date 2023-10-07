@@ -50,6 +50,11 @@ display: block;
   list-style-type: none;
 }
 
+a {
+  color:white;
+  text-decoration: none; 
+}
+
 .input-group {
   display: flex;
   justify-content: flex-end;
@@ -94,6 +99,7 @@ display: block;
 .emoji {
   margin-left: auto;
   padding-right: 110px;
+  paddin-top:10px;
   text-decoration: none;
 }
 
