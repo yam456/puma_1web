@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-container {
-  
+  padding:5px;
   
   background-color: black;
   color: white;
@@ -41,8 +41,8 @@ body {
 }
 .navbar-brand img {
   margin-left: 5px;
-  width: 45px;
-  height: 35px;
+  width: 55px;
+  height: 40px;
 }
 
 a {
